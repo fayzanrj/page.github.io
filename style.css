@@ -231,7 +231,7 @@ li {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transform: translateY(-7.4rem);
+        transform: translateY(-8rem);
         transition: 300ms;
     }
 
