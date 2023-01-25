@@ -1,196 +1,295 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abstract</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-</head>
-<body>
-    <nav>
-        <div class="nav1">
-            <div class="abstract">
-                <div class="image">
-                    <box-icon name='react' type='logo' color='#fefdfd' ></box-icon>
-                </div>
-                <div class="abs">
-                    Abstract
-                </div>
-            </div>
-            <p>|</p>
-            <div class="help">
-                Help Center
-            </div>
-        </div>
-        <div class="nav2" id="nav2">
-            <div class="buttons" id="buttons">
-                <button class="request">Submit a Request</button>
-            <button class="sign-in">Sign In</button>
-            </div>
-        </div>
-        <div class="nav3">
-            <button id="ham-icon" class="ham-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAU0lEQVR4nO3UsQnAMAxEUe/gOItk/508gMQP6YLLgA0m/8HVh1RcKfoN4ACuyalj6UlEJ5OpiehP17u4LSxu49V1+aulqXBA0gGRPsIBSQdEm7oB2b1/MrprLMkAAAAASUVORK5CYII="></button>
-            <buttton id="cross" class="cross"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVR4nO2Yy0rDUBCGD27FS4UUvBTUnQvfwIUPLbiSVlyIVgR1Yb2A+iSfSKcY0saUOCHnhP9bZfWf+Zi0ZyYhCCGEEEII0QTAETAEth0zV4Ez4NQrc5lDL5jyBPQd8taAq1zmik+l1QdnwIMd/PyfzlgnRpb1BRz6VltdQA+4swImwI6DxEEz1TYoU5D4bE2iROZlGRmTuIxGoiAzzsnshhKAdeA6OokSmddFMtFLzAA2y2SAjYLEfogZ5mX2kpOYAWwB91b4G3Bjz+/AIKQE087c8stHMp3onAhdeLVY8M+V3I+dP+6SlO6QXtXtHu1oUmfeilaGGhNwNON7A2N8q7tIltsSJ3W2RJMZtrkdZsCj46rbjgwd+vhwbDJ9x8wfmXPgxCtTCCGEEEKIkOcbGkgGz7D0mYYAAAAASUVORK5CYII="></buttton>
-        </div>
-    </nav>
-    <section class="search">
-        <label for="search-input">How can we help?</label>
-        <span><input type="text" placeholder="Search" class="input"><box-icon name='right-arrow-alt' class="box-icon"></box-icon></span>
-    </section>
-    <section class="main-content">
-        <div class="main-1">
-            <div class="content">
-                <div class="icon">
-                    <img src="//theme.zdassets.com/theme_assets/2197739/aed6500f4da41c641f3de5d96247eb6654e9c386.png" alt="" >
-                </div>
-                <div class="text">
-                    <div class="heading">
-                        <h2>Using Abstract</h2>
-                    </div>
-                    <div class="info">
-                        <p>Abstract lets you manage, version, and document your designs in one place.</p>
-                    </div>
-                    <div class="learn">
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <div class="icon">
-                    <img src="//theme.zdassets.com/theme_assets/2197739/50d0db451c0e1e66e1caddd142986fcf6792ca05.png" alt="" >
-                </div>
-                <div class="text">
-                    <div class="heading">
-                        <h2>Managing organizations, teams, and projects</h2>
-                    </div>
-                    <div class="info">
-                        <p>Use Abstract organizations, teams, and projects to organize your people and your work</p>
-                    </div>
-                    <div class="learn">
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <div class="icon">
-                    <img src="//theme.zdassets.com/theme_assets/2197739/7712592465ef5c7bf18f1c7cb16e19ab44eb81e3.png" alt="" >
-                </div>
-                <div class="text">
-                    <div class="heading">
-                        <h2>Authenticate to Abstract</h2>
-                    </div>
-                    <div class="info">
-                        <p>Set up and configure SSO, SCIM, and Just-in-Time provisioning.</p>
-                    </div>
-                    <div class="learn">
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-           
-            
-        </div>
-        <div class="main-2">
-            <div class="content">
-                <div class="icon">
-                    <img src="//theme.zdassets.com/theme_assets/2197739/91588b3d042df901d9b941ccbb57af4f151401c7.png" alt="" >
-                </div>
-                <div class="text">
-                    <div class="heading">
-                        <h2>Manage your account</h2>
-                    </div>
-                    <div class="info">
-                        <p>Configure your account settings, such as your email, profile details, and password.</p>
-                    </div>
-                    <div class="learn">
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <div class="icon">
-                    <img src="//theme.zdassets.com/theme_assets/2197739/3e82d0126e97d7b7c60a611d4e11b3c278d33743.png" alt="" >
-                </div>
-                <div class="text">
-                    <div class="heading">
-                        <h2>Manage billing</h2>
-                    </div>
-                    <div class="info">
-                        <p>Change subscriptions and payment details anytime you want to.</p>
-                    </div>
-                    <div class="learn">
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="content margintop">
-                <div class="icon">
-                    <img src="//theme.zdassets.com/theme_assets/2197739/dcc25d18e224d12621d74e545cc8bdd1b5685ca8.png" alt="" >
-                </div>
-                <div class="text">
-                    <div class="heading">
-                        <h2>Abstract support</h2>
-                    </div>
-                    <div class="info">
-                        <p>Get in touch with a human for some help if you have any query.</p>
-                    </div>
-                    <div class="learn">
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="list">
-            <li class="headingOfList">Abstract</li>
-            <li class="listItem">Start Trial</li>
-            <li class="listItem">Pricing</li>
-            <li class="listItem">Download</li>
-        </div>
-        <div class="list">
-            <li class="headingOfList">Resourse</li>
-            <li class="listItem">Blog</li>
-            <li class="listItem">Help Center</li>
-            <li class="listItem">Release Notes</li>
-            <li class="listItem">Status</li>
-        </div>
-        <div class="list">
-            <li class="headingOfList">Community</li>
-            <li class="listItem">Twitter</li>
-            <li class="listItem">Linkedin</li>
-            <li class="listItem">Facebook</li>
-            <li class="listItem">Dribble</li>
-            <li class="listItem">Podcast</li>
-        </div>
-        <div class="list">
-            <li class="headingOfList">About us</li>
-            <li class="listItem">Careers</li>
-            <li class="listItem">Legal</li>
-        </div>
-        <div class="list">
-            <li class="headingOfList">Contact us</li>
-            <li class="listItem">info@gmail.com</li>
-        </div>
-    </footer>
+@import url(//db.onlinewebfonts.com/c/031da03967812d134ed68febd3ba78a9?family=GT+America);
 
-    <script>
-        let hamIcon = document.getElementById('ham-icon')
-        let cross = document.getElementById('cross')
-        let nav2 = document.getElementById('nav2')
 
-        hamIcon.addEventListener('click' , ()=>{
-            hamIcon.style.display = "none"
-            cross.style.display = "block"
-            nav2.style.transform = "TranslateY(0)"
-        })
-        cross.addEventListener('click' , ()=>{
-            hamIcon.style.display = "block"
-            cross.style.display = "none"
-            nav2.style.transform = "TranslateY(-8rem)"
-        })
-    </script>
-</body>
-</html>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'GT America Standard', sans-serif;
+    font-family: gt amera;
+}
+
+nav {
+    width: 100vw;
+    height: 6rem;
+    background-color: #000000;
+    color: aliceblue;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+
+    font-size: 1.2rem;
+}
+
+.nav1,
+.nav2 {
+    display: flex;
+    align-items: center;
+}
+
+.nav1 p {
+    margin: 0 .8rem;
+    font-size: 1.5rem;
+}
+
+.nav2{
+    /* position: fixed;
+    width: 100%; */
+    /* background-color: #4C5FD5; */
+    /* margin: 0; */
+}
+
+
+.abstract {
+    display: flex;
+    align-items: center;
+}
+
+.abstract .image {
+    margin-top: .5rem;
+}
+
+.request {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1.01rem;
+    font-weight: 200;
+    color: rgb(233, 232, 232);
+    background-color: transparent;
+    border: 1px solid;
+    border-color: rgb(158, 158, 158);
+    border-radius: .3rem;
+    margin: 0 .4rem;
+}
+
+.sign-in {
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 1.01rem;
+    font-weight: 200;
+    border-radius: .3rem;
+    background-color: #4C5FD5;
+    color: white;
+    border: #4C5FD5;
+}
+
+.nav3{
+    display: none;
+}
+.ham-icon,.cross {
+    display: none;
+    background-color: transparent;
+    border: none;
+    margin-right: .3rem;
+}
+
+.search {
+    width: 100%;
+    height: 20rem;
+    background-color: #dadbf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search label {
+    font-size: 4.5rem;
+}
+
+.search input {
+    width: 50vw;
+    height: 4rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding: 0 1rem;
+    margin-top: 1.5rem;
+    border-radius: .3rem;
+}
+
+.search input::placeholder {
+    color: #000000;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.box-icon {
+    position: relative;
+    right: 2rem;
+    top: .5rem;
+}
+
+.main-content {
+    width: 100%;
+    height: 80rem;
+    /* background-color: red; */
+    display: flex;
+    margin-bottom: -10rem;
+}
+
+.main-content .main-1,
+.main-content .main-2 {
+    width: 50%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.main-content .main-1 {
+    align-items: flex-end;
+}
+
+
+.main-content .main-2 {
+    /* background: yellow; */
+}
+
+.content {
+    max-width: 35rem;
+    min-height: 20em;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.icon {
+    min-width: 8rem;
+    max-height: 7rem;
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.icon img {
+    width: 5rem;
+}
+
+.heading,
+.info,
+.learn {
+    margin: 1.2rem .5rem;
+}
+
+.info p {
+    font-size: 1.5rem;
+}
+
+footer {
+    width: 100%;
+    height: 20rem;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: .2rem;
+}
+
+.list {
+    width: 15rem;
+    text-align: center;
+}
+
+.headingOfList {
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    nav {
+        padding: 0 0;
+        z-index: 2;
+        height: 4rem;
+    }
+    .nav1{
+        margin-left: 1rem;
+    }
+    .nav3{
+        display: block;
+    }
+    .nav2{
+        position: fixed;
+        width: 100%;
+        height: 4rem;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-8rem);
+        transition: 300ms;
+    }
+
+    .nav3 .ham-icon {
+        display: block;
+        margin-right: 1rem;
+    }
+
+    .search label {
+        font-size: 2.3rem;
+    }
+
+    .search input {
+        width: 90vw;
+        margin-right: -1.3rem;
+    }
+
+    .box-icon {
+        right: 1.5rem;
+    }
+
+    .main-content {
+        flex-direction: column;
+        margin-top: 5rem;
+        height: 100rem;
+        margin-bottom: 0;
+    }
+
+    .main-content .main-1,
+    .main-content .main-2 {
+        width: 100%;
+        height: 50%;
+        align-items: center;
+    }
+
+    .content {
+        min-height: 15rem;
+    }
+
+    .info p {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        height: 25rem;
+    }
+
+    .list {
+        width: 7.5rem;
+    }
+
+    .headingOfList {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    footer {
+        height: 35rem;
+    }
+}
